@@ -1,0 +1,67 @@
+/*--------------------------------------------------
+A R I S T O N - T H E R M O
+http://www.aristothermo.it/
+website by websoulte
+--------------------------------------------------*/
+
+/*--------------------------------------------------
+Font OpenSans
+--------------------------------------------------*/
+@font-face {font-family:'OpenSansLight'; src:url('OpenSans-Light-webfont.eot'); src:url('OpenSans-Light-webfontd41d.eot?#iefix') format('embedded-opentype'), url('OpenSans-Light-webfont.woff') format('woff'), url('OpenSans-Light-webfont.ttf') format('truetype'), url('OpenSans-Light-webfont.svg#OpenSansLight') format('svg'); font-weight:normal; font-style:normal;}
+@font-face {font-family:'OpenSansRegular'; src:url('OpenSans-Regular-webfont.eot'); src:url('OpenSans-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('OpenSans-Regular-webfont.woff') format('woff'), url('OpenSans-Regular-webfont.ttf') format('truetype'), url('OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg'); font-weight:normal; font-style:normal;}
+@font-face {font-family:'OpenSansBold'; src:url('OpenSans-Bold-webfont.eot'); src:url('OpenSans-Bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('OpenSans-Bold-webfont.woff') format('woff'), url('OpenSans-Bold-webfont.ttf') format('truetype'), url('OpenSans-Bold-webfont.svg#OpenSansBold') format('svg'); font-weight:normal; font-style:normal;}
+
+body {font:14px/21px 'OpenSansLight'; color:#fff;}
+
+.container {width:960px; margin:20px auto 20px auto; border:11px solid #663399;}
+
+.header {height:54px; padding:10px 0;}
+.logo {float:right;}
+.menu {float:left; margin:50px 0 0 0;}
+
+.blocco {background:url(../Template/2/landing/Landing_Nuos_Blu3.jpg) no-repeat; position:relative; z-index:1;}
+.corpo {padding:20px 20px 20px 360px;}
+.txt {margin-bottom:20px;}
+.txt .tit-txt {text-transform: uppercase; font-size: 22px; line-height: 22px; margin-bottom: 10px; font-family: 'OpenSansRegular';}
+.txt .tit-txt span {font-size: 38px;}
+.titolo {text-transform:uppercase; font:18px/21px 'OpenSansRegular'; display:block;}
+
+.blocco_form {padding:20px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; background:url(../Template/2/landing/bianco.png); position:relative; z-index:1;}
+.wrap_txt {padding:20px; margin:72px 0 20px 0; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; background:url(../Template/2/landing/blu.png);}
+.mandatory {position:absolute; z-index:2; right:20px; top:20px; color:#663399;}
+.blocco_form .titolo {color:#663399; margin-bottom:20px;}
+.blocco_form ul {margin:0; padding:0; list-style-type:none;}
+.blocco_form ul li {float:left; width:48%; margin-bottom:7px; margin-right:20px;}
+.blocco_form ul li.nomargin {margin-right:0;}
+.blocco_form ul li.last_li {margin:0; width:100%;}
+.blocco_form label {float:left; width:138px; padding:4px 0; color:#474747; font:14px/14px 'OpenSansRegular'; text-transform:uppercase;}
+.blocco_form label span {color:#663399;}
+.blocco_form input {width:220px; border:1px solid #663399; font:13px/17px 'OpenSansLight'; padding:3px;}
+.blocco_form input.radio {border:none;}
+.ie .blocco_form input {width:218px;}
+.blocco_form textarea {width:95%; height:60px; border:1px solid #663399;}
+.ie .blocco_form textarea {width:598px;}
+.chrome .blocco_form textarea {width:100%;}
+.radio_choose {float:left;}
+.radio_choose input {float:left; width:auto!important;}
+.radio_choose label {float:left; text-transform:none; font:13px/13px 'OpenSansLight'; width:auto; margin:0 5px; padding:0;}
+.radio_choose select {float:left; margin-right:5px; font:13px/13px 'OpenSansLight';} 
+.cont_button {margin-top:20px; text-align:center;}
+.cont_button .button {background:#663399; color:#FFFFFF; display:inline-block; font:14px/14px 'OpenSansBold'; padding:13px 19px; text-transform:uppercase; width:auto;}
+
+.prodotti {background:#fff; padding:20px 20px 0 20px;}
+.prodotti .titolo {margin-bottom:10px; color:#663399;}
+.wrap_prod {float:right;}
+.wrap_prod img {margin:0 0 0 60px;}
+
+.list_desc {margin:20px 0; position:relative; z-index:1;}
+.list_desc img {position:absolute; z-index:2; left:0; bottom:0;}
+.list_desc ul {float:right; list-style:none;}
+.list_desc li {float:left; color:#888888; font-weight:bold; text-transform:uppercase;}
+.list_desc li.separa {padding:0 10px; font-weight:normal; color:#663399;}
+
+.footer {color:#939393; padding:20px 0; text-align:right;}
+.footer a {color:#663399; text-decoration:none;}
+
+.thx {color:#474747;}
+.mf {color:#474747;}
