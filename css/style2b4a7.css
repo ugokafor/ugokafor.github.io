@@ -37,7 +37,7 @@ a {color:#38368D;}
 .fs40 {font-size:40px;}
 .tdn {text-decoration:none;}
 .mtxl {margin-top:30px;}
-#container {padding-bottom:40px; position:relative; z-index:10;}
+#container {position:relative; z-index:10;}
 #container.reserved_area {height:1100px;}
 .products{
     height:800px;
@@ -58,7 +58,7 @@ em {font-style:italic;}
 .left {float:left;}
 .right {float:right;}
 .mgt20 {margin-top:20px !important;}
-.mgb20 {margin-bottom:20px !imp float:right; }
+.mgb20 {margin-bottom:20px !important float:right; }
 .w_50pc {width:50%;}
 textarea {border:none; background:#e8e8e8; color:#706f6f; padding:3px 3px 3px 10px;}
 hr.contatti {width:90%;}
@@ -1263,6 +1263,10 @@ only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (-o-min-de
         width: 40%;
         height: auto !important;
 
+    }
+    .about_us{
+        width:100% !important;
+        height:auto !important;
     }
 }
 
