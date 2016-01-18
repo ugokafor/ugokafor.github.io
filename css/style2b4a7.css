@@ -44,7 +44,7 @@ a {color:#38368D;}
     border: 1px solid rgba(0,0,0,.1);
     margin-bottom:20px;
 }
-.w960 {width:940px; margin:0 auto; padding:0 10px;}
+.w960 {width:940px; margin:0 auto; padding:0;}
 .w940 {width:920px; margin:0 auto; padding:0 10px;}
 .w1000 {width:940px; margin:0 auto; padding:15px 20px 30px;}
 .nopadding {padding:0 !important;}
@@ -1264,6 +1264,28 @@ only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (-o-min-de
         height: auto !important;
 
     }
+    .showrell_hp .scrollable_hp .items{
+        width:100% !important;
+        height:auto;
+    }
+    .about_us{
+        width:100% !important;
+        height:auto;
+        margin:auto;
+        padding:5px;
+    }
+    .cont_interno .blocco_dx.contatti{
+        width:100% !important;
+    }
+    .w_50pc{
+        width:100% !important;
+    }
+    .gmap{
+        padding:10px 0 !important;
+    }
+
+
+
 }
 
 .visible-xs{
