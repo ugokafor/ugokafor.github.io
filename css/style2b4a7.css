@@ -1283,6 +1283,15 @@ only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (-o-min-de
     .gmap{
         padding:10px 0 !important;
     }
+    .cont_menu_princ{
+        background-color: white;
+    }
+    .interno .cont_showrell_hp{
+        margin-top:5px;
+    }
+    .form-group{
+        width:inherit !important;
+    }
 
 
 
