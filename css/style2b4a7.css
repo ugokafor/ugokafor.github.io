@@ -1228,30 +1228,30 @@ only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (-o-min-de
     }
 
     .logo {
-    	display: inline-block;
-    	width: 50px;
-    	height: 50px;
-    	background-size: contain;
-    	margin: 0;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+        margin: 0;
     }
 
     .companyName {
-    	font-size: 16px;
-    	display: block;
-    	text-align: center;
-    	width: 300px;
-    	margin: auto;
-    	padding-top: 10px;
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+        padding-top: 10px;
     }
 
     p.company {
-    font-size: 12px;
-    margin-top: 0;
-    display: block;
-    text-align: center;
-    font-weight: 100;
-    line-height: 1em;
-}
+        font-size: 12px;
+        margin-top: 0;
+        display: block;
+        text-align: center;
+        font-weight: 100;
+        line-height: 1em;
+    }
     .hidden-xs{
         display: none !important;
     }
@@ -1293,6 +1293,23 @@ only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (-o-min-de
         width:inherit !important;
     }
 
+    .picture{
+
+        width: 100% !important;
+        margin:10px 5px;
+
+
+    }
+    .description{
+        width:100% !important;
+        margin:10px 5px !important;
+
+    }
+    section.body{
+        width:100% !important;
+        height:auto !important;
+
+    }
 
 
 }
@@ -1316,4 +1333,44 @@ select#nav_menu {
 p.footer {
     text-align: center;
     color: white;
+}
+section.body{
+    width:940px;
+    height:500px;
+    margin:0 auto;
+    padding:0;
+
+}
+.picture{
+    width:423px;
+    height:400px;
+    display:inline-block;
+    background-size: contain;
+    background-image: url('../media/immagini/water%20heater.jpg');
+    background-repeat: no-repeat;
+    vertical-align:top;
+    margin-top:30px;
+
+
+}
+.description{
+    width:423px;
+    display:inline-block;
+    height:400px;
+    margin-top:30px;
+    margin-left:40px;
+    box-shadow:3px 3px 2px rgba(0,0,0,0.1);
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 5px 20px 5px;
+    vertical-align: top;
+}
+.product-desc{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+
+
+}
+.descriptions{  font-family: 'Merriweather', serif;
+    padding-left:50px;
 }
