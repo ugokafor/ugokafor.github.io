@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------
+/*--------------------------------------------------
 A R I S T O N - T H E R M O
 http://www.aristothermo.it/
 website by websoulte
@@ -22,7 +22,10 @@ Font OpenSans
 /*--------------------------------------------------
 body e altro
 --------------------------------------------------*/
-body {background:#fff; color:#333; font:15px/18px Arial, Helvetica, sans-serif; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#343434;}
+body {
+    background: url(../media/immagini/footer.jpg) repeat;
+
+    color:#333; font:15px/18px Arial, Helvetica, sans-serif; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#343434;}
 a {color:#38368D;}
 .osr {font-family:'OpenSansRegular';}
 .osl {font-family:'OpenSansLight';}
@@ -44,7 +47,7 @@ a {color:#38368D;}
     border: 1px solid rgba(0,0,0,.1);
     margin-bottom:20px;
 }
-.w960 {width:940px; margin:0 auto; padding:0 10px;}
+.w960 {width:940px; margin:0 auto; padding:0;}
 .w940 {width:920px; margin:0 auto; padding:0 10px;}
 .w1000 {width:940px; margin:0 auto; padding:15px 20px 30px;}
 .nopadding {padding:0 !important;}
@@ -58,7 +61,7 @@ em {font-style:italic;}
 .left {float:left;}
 .right {float:right;}
 .mgt20 {margin-top:20px !important;}
-.mgb20 {margin-bottom:20px !important float:right; }
+.mgb20 {margin-bottom:20px !imp float:right; }
 .w_50pc {width:50%;}
 textarea {border:none; background:#e8e8e8; color:#706f6f; padding:3px 3px 3px 10px;}
 hr.contatti {width:90%;}
@@ -410,7 +413,7 @@ Prodotti
     background-color:gainsboro;
 }
 .formgroup{
-   padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 .prodotti_riassunto {}
 .prodotti_riassunto .sezione {float:left; width:234px; color:#808080;}
@@ -622,7 +625,7 @@ Prodotto
 RISULTATI RICERCA
 --------------------------------------------------*/
 .cont_ris_ric {position:relative; height:120px; width:418px; margin-top:10px;}
-.cont_ris_ric .browse {position:absolute; bottom:-10px; z-index:2; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;} 
+.cont_ris_ric .browse {position:absolute; bottom:-10px; z-index:2; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;}
 .cont_ris_ric .indietro_risultati {position:absolute; z-index:2; left:0; bottom:-7px; background:url(../imgs/indietro.gif) left 5px no-repeat; padding-left:12px; text-decoration:none;}
 .cont_ris_ric .prev_ris_ric {background-position:left top; right:30px;}
 .cont_ris_ric .prev_ris_ric.disabled {background-position:left bottom; cursor:auto;}
@@ -649,7 +652,7 @@ GALLERY PRODOTTO
 --------------------------------------------------*/
 .gallery_prodotto .titolo {color:#38368D; font-family:'OpenSansRegular'; text-transform:uppercase; font-size:11px; display:block; margin-bottom:15px;}
 .cont_gallery {position:relative; height:120px;}
-.cont_gallery .browse {position:absolute; bottom:0; z-index:2; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;} 
+.cont_gallery .browse {position:absolute; bottom:0; z-index:2; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;}
 .cont_gallery .prev_prodotto {background-position:left top; right:30px;}
 .cont_gallery .prev_prodotto.disabled {background-position:left bottom; cursor:auto;}
 .cont_gallery .next_prodotto {background-position:right top; right:0;}
@@ -718,7 +721,7 @@ GALLERY INTERESSE
 .cont_gallery_interesse .navi a.numnavi_prodotto_10 {background-position:-180px 0;}
 .cont_gallery_interesse .navi a.numnavi_prodotto_10:hover {background-position:-180px -20px;}
 .cont_gallery_interesse .navi a.numnavi_prodotto_10.active {background-position:-180px -40px;}
-.cont_gallery_interesse .browse {position:static; float:right; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;} 
+.cont_gallery_interesse .browse {position:static; float:right; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;}
 .cont_gallery_interesse .prev_interesse {background-position:left top;}
 .cont_gallery_interesse .prev_interesse.disabled {background-position:left bottom; cursor:auto;}
 .cont_gallery_interesse .next_interesse {background-position:right top;}
@@ -768,7 +771,7 @@ GALLERY correlati
 .cont_gallery_correlati .navi a.numnavi_prodotto_10 {background-position:-180px 0;}
 .cont_gallery_correlati .navi a.numnavi_prodotto_10:hover {background-position:-180px -20px;}
 .cont_gallery_correlati .navi a.numnavi_prodotto_10.active {background-position:-180px -40px;}
-.cont_gallery_correlati .browse {position:static; float:right; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;} 
+.cont_gallery_correlati .browse {position:static; float:right; width:10px; height:10px; background:url(../imgs/bg_scroll_evidenza.gif) no-repeat; width:20px; height:24px; cursor:pointer;}
 .cont_gallery_correlati .prev_correlati {background-position:left top;}
 .cont_gallery_correlati .prev_correlati.disabled {background-position:left bottom; cursor:auto;}
 .cont_gallery_correlati .next_correlati {background-position:right top;}
@@ -898,7 +901,7 @@ Form Servizi
 .wrap_campi {}
 .wrap_campi p {margin-bottom:10px; font-size:14px;}
 .wrap_campi .campi_dx {width:50%;}
-.wrap_campi .campi_sx {width:50%;} 
+.wrap_campi .campi_sx {width:50%;}
 .form_servizi .wrap_campi .select_cont {margin-right:0;}
 .motivo_segnalazione {float:left; }
 .motivo_segnalazione p {color:#38368D; margin-bottom:5px; font-size:12px; margin-top:10px;}
@@ -1012,7 +1015,7 @@ Contenitore Universo Ariston Dettaglio
 .notizia .wrap_scrol_dettaglio .gallery a.browse {background: url("../imgs/frecce_scrol_det.png") no-repeat scroll 0 0 transparent; display: block; height: 24px; position: absolute; top: 0; width: 20px; z-index: 2; cursor:pointer;}
 .notizia .wrap_scrol_dettaglio .gallery a.right	{background-position: right top; right:15px; top:60px;}
 .notizia .wrap_scrol_dettaglio .gallery a.right.disabled {background-position: right bottom; cursor: auto;}
-.notizia .wrap_scrol_dettaglio .gallery a.left {background-position: left top; left:15px; top:60px} 
+.notizia .wrap_scrol_dettaglio .gallery a.left {background-position: left top; left:15px; top:60px}
 .notizia .wrap_scrol_dettaglio .gallery a.left.disabled {background-position: left bottom; cursor: auto;}
 .articoli_evidenza .addthis_toolbox.addthis_default_style {padding:10px;}
 .articoli_evidenza .addthis_toolbox.addthis_default_style .addthis_button_facebook_like {height:25px !important;}
@@ -1155,7 +1158,7 @@ Footer
 /*.footer_mappa ul li a {text-decoration:none; color:#858585;}*/
 /*.footer_mappa ul li a.titolo {color:#363737; font-family:'OpenSansBold'; display:block; margin-bottom:5px;}*/
 .footer_mappa ul li a:hover {text-decoration:none;
- color:grey;}
+    color:grey;}
 .footer_mappa ul li ul {}
 .footer_mappa ul li ul li {background:none; padding:0;}
 .footer_mappa ul li ul li:last-child { width: auto; }
@@ -1183,7 +1186,7 @@ Footer
 #nav_list { display:none;}
 
 .disabled_list {position: absolute; right: 80px; top: 570px; border:none; outline:none;}
-.list_esigenze {position: absolute; right: 80px; top: 590px; border:none; outline:none;} 
+.list_esigenze {position: absolute; right: 80px; top: 590px; border:none; outline:none;}
 .list_categorie {position: absolute; right: 80px; top: 570px; border:none; outline:none;}
 
 .no_results {margin-top:20px; color:#38368D; text-transform:uppercase; font-size:14px;}
@@ -1228,30 +1231,30 @@ only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (-o-min-de
     }
 
     .logo {
-    	display: inline-block;
-    	width: 50px;
-    	height: 50px;
-    	background-size: contain;
-    	margin: 0;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+        margin: 0;
     }
 
     .companyName {
-    	font-size: 16px;
-    	display: block;
-    	text-align: center;
-    	width: 300px;
-    	margin: auto;
-    	padding-top: 10px;
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+        padding-top: 10px;
     }
 
     p.company {
-    font-size: 12px;
-    margin-top: 0;
-    display: block;
-    text-align: center;
-    font-weight: 100;
-    line-height: 1em;
-}
+        font-size: 12px;
+        margin-top: 0;
+        display: block;
+        text-align: center;
+        font-weight: 100;
+        line-height: 1em;
+    }
     .hidden-xs{
         display: none !important;
     }
@@ -1264,10 +1267,54 @@ only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (-o-min-de
         height: auto !important;
 
     }
+    .showrell_hp .scrollable_hp .items{
+        width:100% !important;
+        height:auto;
+    }
     .about_us{
         width:100% !important;
-        height:auto !important;
+        height:auto;
+        margin:auto;
+        padding:5px;
     }
+    .cont_interno .blocco_dx.contatti{
+        width:100% !important;
+    }
+    .w_50pc{
+        width:100% !important;
+    }
+    .gmap{
+        padding:10px 0 !important;
+    }
+    .cont_menu_princ{
+        background-color: white;
+    }
+    .interno .cont_showrell_hp{
+        margin-top:5px;
+    }
+    .form-group{
+        width:inherit !important;
+    }
+
+    .picture{
+
+        width: 100% !important;
+        margin:10px 5px;
+
+
+    }
+    .description{
+        width:100% !important;
+        margin:10px 5px !important;
+        float:right;
+    }
+    section.body{
+        width:100% !important;
+        height:auto !important;
+
+    }
+
+
 }
 
 .visible-xs{
@@ -1289,4 +1336,45 @@ select#nav_menu {
 p.footer {
     text-align: center;
     color: white;
+}
+section.body{
+    width:940px;
+    height:500px;
+    margin:0 auto;
+    padding:0;
+
+}
+.picture{
+    width:423px;
+    height:400px;
+    display:inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align:top;
+    margin-top:30px;
+    float:left;
+
+
+}
+.description{
+    width:423px;
+    display:inline-block;
+    height:400px;
+    margin-top:30px;
+    margin-left:40px;
+    box-shadow:3px 3px 2px rgba(0,0,0,0.1);
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 5px 20px 5px;
+    vertical-align: top;
+    float:right;
+}
+.product-desc{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+
+
+}
+.descriptions{  font-family: 'Merriweather', serif; font-size: medium;
+    padding-left:50px;
 }
