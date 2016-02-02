@@ -8,7 +8,7 @@
 
 function head(){
     echo '<header>
-    this is a php script
+    this is a php scriptdd
 </header>';
 }
 
