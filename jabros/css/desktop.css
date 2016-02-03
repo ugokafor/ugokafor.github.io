@@ -1,0 +1,286 @@
+h1{
+    font-family:"Courier New", Courier, monospace;
+    font-weight:900;
+}
+
+@media(max-width:541px){
+    .logo{
+        display:inline-block;
+        float:none;
+    }
+    .logoname{
+        display: block;
+
+
+    }
+}
+/*small*/
+@media(max-width:480px){
+    .grey{
+        display:none;
+    }
+    .responsive{
+        display:none;
+    }
+    .contain{
+        display:block;}
+
+
+}
+/*large*/
+@media(min-width:600px){
+    .responsive{
+        display:none;
+    }
+    .dropdown{
+        display:none;
+    }
+
+}
+
+header{
+    width:100%;
+
+
+}
+
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+body{
+    background-image:url("../images/marble.jpg");
+    height:auto;
+    margin-bottom:0px;
+    margin-right:20px;
+    margin-left:20px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width:100%;
+    height: 400px;
+    margin: auto;
+}
+
+.container{
+    width:100%;padding:0px;  margin:0px;
+}
+.logoname{
+    text-align: center;
+    margin-left:70px;
+    margin-right:70px;
+}
+.logo{
+    display:inline-block;
+    float: left;
+}
+.name{
+     text-align:center;
+     color:darkslateblue;
+ }
+
+
+ .name h1{
+     text-align: center;
+ }
+
+.grey{
+    color:darkslateblue;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;  height: 30px;  background-color: #DCDCDC;
+    height:50px; font-size: 20px;font-family: "Consolas", "Menlo", "Courier", monospace;
+}
+.grey nav{
+    color:darkslateblue;
+    margin-left:70px;
+    margin-right:70px;
+}
+.grey a{
+    color:darkslateblue;
+}
+.wide{
+    width: 100%;  height: 400px;
+}
+.title{
+    text-align: left;
+    margin-left: 90px;
+}
+.prodotti_home{
+    text-align: center;
+    margin-left:70px;
+
+
+}
+.prodotti_home .cont_prodotti_hp{
+    display:inline-block;
+}
+.preview_cat_home{
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+
+
+}
+.preview_cat_home img{
+
+    margin: 2px;
+    width: 200px;
+    height: 200px;
+}
+ul{
+    display:inline-block;
+    margin-left:10%;
+    margin-right: 10%;
+    list-style: none;
+}
+.image{
+    padding:2px;
+    border:1px solid white;
+}
+
+.desc{
+    color:#000000;
+    font-family:"Courier New", Courier, monospace;
+    font-weight:600;
+}
+.path{
+    margin:30px;  }
+
+footer{
+    background-color:black;
+    clear: both;
+    width: 100%; color:white;
+    display: inline-block;
+    position: relative;
+}
+.group{
+    float:left;
+margin-right: 20%;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+footer a{
+     color:white
+ }
+footer ul{   list-style: none;}
+
+
+/*contact us page styling*/
+@media(max-width:480px){
+    .contain{
+        width:100%;
+    }
+    .form{
+        background-color:#DCDCDC;
+        height:400px;
+    }
+    .failure{
+        display:none;
+    }
+    .success{
+        display:none;
+    }
+    .map{
+        background-image:url("../images/nnamdi.PNG");
+
+    }
+
+}
+
+
+@media(min-width:481px) and (max-width:768px) {
+    .failure {
+        display: none;
+    }
+
+    .success {
+        display: none;
+    }
+
+    .form {
+        background-color: #DCDCDC;
+        padding: 50px;
+        width: 40%;
+        height: 400px;
+        float: left;}
+    .map {
+        background-image: url("../images/nnamdi.PNG");
+        width: 40%;
+        height: 400px;
+        float: right;
+    }
+
+
+}
+
+@media (min-width: 769px) {
+        .contain {
+            width: 100%;
+            display: inline-block;
+
+        }
+
+        .form {
+            background-color: #DCDCDC;
+
+            width: 40%;
+            height: 400px;
+            float: left;
+        }
+
+        .failure {
+            display: none;
+        }
+
+        .success {
+            display: none;
+        }
+
+        .map {
+            width: 40%;
+            height: 400px;
+            float: right;
+        }
+
+}
+/*end contact us page styling*/
+
+
+
+
+
+/*product page style*/
+.categories{
+    text-align: center;
+    font-size:35px ;
+    height:40px;
+    margin-bottom:30px;
+    background-color:black;
+    color:white;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+
+/*end of product page style**/
+
+/*about us style*/
+.about{
+    margin-left:20%;
+    margin-right:20%;
+}
+/*end of about us style*/
+

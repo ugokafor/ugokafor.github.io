@@ -1,0 +1,116 @@
+<?php
+function headercode()
+{
+    echo '
+ <header>
+        <div class="logoname">
+            <div class="logo">
+                <img src="images/main_logo.png" alt=""/>
+            </div>
+            <div class="name">
+                <h1>JABROS INDUSTRIES NIGERIA LIMITED</h1>
+                <h2>Sanitary wares | Water Fittings |Water heater</h2>
+            </div>
+        </div>
+
+        <br/>
+        <div class="grey">
+        <nav >
+                <a href="index.php">Home</a> | <a href="product.php">Products</a> |<a href="about us.php">About
+                    Us</a> |  <a
+                    href="contact.php">contact
+                    Us</a>
+            </nav>
+        </div>
+
+        <div>
+            <form id="page-changer" action="" method="post" class="responsive">
+                <select name="nav">
+                    <option value="">Home</option>
+                    <option value="second.php">products</option>
+                    <option value="http://digwp.com/">About Us</option>
+                    <option value="http://quotesondesign.com/">Contact Us</option>
+                </select>
+                <input type="submit" value="Go" id="submit" />
+            </form>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu<span
+            class="caret"></span></button>
+            <ul class="dropdown-menu">
+            <li><a href="index.php">Home</a></li>
+                <li><a href="product.php">Products</a></li>
+                <li><a href="about us.php">About Us</a></li>
+                <li><a href="contact.php">Contact Ust</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+';
+}
+function footer(){
+    echo '    <footer>
+        <div class="group">
+            <ul>
+                <li><b><a href="product.php"><span class="underline">Products</span></a></b></li>
+                <li><a href="#">Shower Cubicle</a></li>
+                <li><a href="kitchen_sink.php">Kitchen Sink</a></li>
+                <li><a href="water_heater.php">Water Heater</a></li>
+                <li><a href="#">Enamel Bathtub</a></li>
+                <li><a href="#">Panel bath</a></li>
+                <li><a href="#">Fibre Bath</a></li>
+                <li><a href="shower_tray.php">Shower Tray</a></li>
+                <li><a href="rain_gutter.php">Rain Gutter System</a></li>
+            </ul>
+        </div>
+
+
+<div class="group">
+    <ul>
+     <li><b><a href="product.php"><span class="underline">Jabros Pages</span></a></b></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="product.php">Products</a></li>
+        <li><a href="about us.php">About Us</a></li>
+        <li><a href="contact.php">contact Us now</a></li>
+    </ul>
+</div>
+        <div class="group">
+          <ul>
+              <p><b>Adress:</b>my house Adress</p>
+              <p><b>Phone no:</b>08038180104</p>
+              <p><b>email:</b>chatmate54@yahoo.com</p>
+          </ul>
+      </div>
+    </footer>';
+}
+function head(){
+    echo'
+    <meta charset="UTF-8">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+
+<!---->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/desktop.css"/>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!--    <link rel="stylesheet" href="small.css" media="(max-width:480px)"/>-->
+    <script src="js/jquery.min.js"></script>
+<!--    <script src="simple-fade-slideshow.slider/js/jssor.slider.mini.js"></script>-->
+    <noscript>
+        <style>
+            .dropdown{
+                display:none;}
+            .responsive{
+                display:block;
+            }
+        </style>
+    </noscript>';
+}
