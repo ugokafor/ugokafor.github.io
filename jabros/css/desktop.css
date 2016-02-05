@@ -151,6 +151,8 @@ ul{
     border:1px solid white;
 }
 
+
+
 .desc{
     color:#000000;
     font-family:"Courier New", Courier, monospace;
@@ -161,10 +163,11 @@ ul{
 
 footer{
     background-color:black;
-    clear: both;
-    width: 100%; color:white;
-    display: inline-block;
-    position: relative;
+    clear:both;
+    width:100%;
+    color:white;
+    display:
+    inline-block;
 }
 .group{
     float:left;
@@ -282,5 +285,5 @@ footer ul{   list-style: none;}
     margin-left:20%;
     margin-right:20%;
 }
-/*end of about us style*/
+
 
