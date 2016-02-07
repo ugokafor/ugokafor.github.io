@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc8d6618-1607-4e01-b8af-50ea507ae38a" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Ugokafor\Documents\GitHub\ugokafor.github.io\kenkuch\css\github.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ugokafor\Documents\GitHub\ugokafor.github.io\kenkuch\css\marble.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/about_us.html" afterPath="$PROJECT_DIR$/kenkuch/about_us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/index.html" afterPath="$PROJECT_DIR$/kenkuch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/css/ken.css" afterPath="$PROJECT_DIR$/kenkuch/css/ken.css" />
     </list>
     <ignored path="ugokafor.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,22 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kenkuch/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2346">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.4265233" vertical-offset="1581" max-vertical-offset="2397">
+              <caret line="115" column="98" selection-start-line="115" selection-start-column="98" selection-end-line="115" selection-end-column="98" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69863015" vertical-offset="459" max-vertical-offset="1275">
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1275">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
@@ -76,8 +74,8 @@
         <option value="$PROJECT_DIR$/kenkuch/test.html" />
         <option value="$PROJECT_DIR$/kenkuch/about_us.html" />
         <option value="$PROJECT_DIR$/kenkuch/css/ken.css" />
-        <option value="$PROJECT_DIR$/kenkuch/index.html" />
         <option value="$PROJECT_DIR$/kenkuch/css/mobile.css" />
+        <option value="$PROJECT_DIR$/kenkuch/index.html" />
       </list>
     </option>
   </component>
@@ -231,7 +229,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -240,7 +238,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15960665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15960665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -285,6 +283,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -338,21 +338,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kenkuch/index.html">
+    <entry file="file://$PROJECT_DIR$/kenkuch/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2346">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1275">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kenkuch/css/mobile.css">
+    <entry file="file://$PROJECT_DIR$/kenkuch/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69863015" vertical-offset="459" max-vertical-offset="1275">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.4265233" vertical-offset="1581" max-vertical-offset="2397">
+          <caret line="115" column="98" selection-start-line="115" selection-start-column="98" selection-end-line="115" selection-end-column="98" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
