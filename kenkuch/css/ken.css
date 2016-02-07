@@ -1,73 +1,5 @@
-/*small screens less than 400px*/
-@media(max-width:600px){
-    .btn.btn-default.dropdown-toggle{
-        margin-top:6px;
-        background-color:#222222;
-        color:white;
-    }
-
-    header{
-        margin-top:0px;
-        background-color:rgba(255,255,255,0.5);
-        width: 100%;
-    }
-
-    aside{
-        display:none;
-    }
-section{
-    float:right;
-    width:100%;
-    background-color:rgba(02, 12, 131,0.2);
-    color:#ffffff;
-}
-    body{
-        background-image:url("../images/background.jpg");
-        background-repeat:no-repeat;
-        background-position:right top;
-        background-attachment: fixed;
-    }
-
-    footer {
-        clear: both;
-        background-color: rgba(0, 12, 11, 0.5);
-        height:400px;
-        width: 100%;
-    }
-
-
-    /*carosol*/
-
- .carousel-inner > .item > img,
- .carousel-inner > .item > a > img {
-     height:500px;
-     width:100%;
-     margin: auto;
- }
-
-
-    /*end of carosol*/
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*large screens*/
-
-@media(min-width:600px){
-    .btn.btn-default.dropdown-toggle{
+.btn.btn-default.dropdown-toggle{
         margin-top:6px;
         background-color:#222222;
         color:white;
@@ -145,17 +77,6 @@ section{
     color:#ffffff;
 
 }
-aside{
-    width: 39%;
-    float: right;
-    height:200px;
-
-background-image:url("../images/IMG-20151106-WA0000.jpg");
-}
-    .black{
-        background-color:rgba(0,0,0,0.5);
-    }
-
 
 nav a{
 color: #000000;
@@ -168,5 +89,4 @@ color: #000000;
 }
 .desc{
     text-align: center;
-}
 }
