@@ -16,6 +16,10 @@ header{
 
 }
 
+.col-sm-1 img{
+    width:100px;
+    height:100px;
+}
 
 .btn.btn-default.dropdown-toggle{
     margin-top:6px;
@@ -38,6 +42,21 @@ header{
 
 /*end of carosol*/
 
+/*contact page*/
+.center {
+    margin:auto;
+    width: 90%;
+    padding: 10px;
+}
+.map{
+    display:none;
+}
+/*end of contact page*/
+
+
+
+
+
 
 
 
@@ -50,9 +69,9 @@ section{
 
 
 
-    aside{
-        display:none;
-    }
+aside{
+    display:none;
+}
 
 
 
@@ -62,8 +81,13 @@ footer {
     height:400px;
     width: 100%;
 }
+footer ul li{
+    list-style: none;
+}
+.desc a{
+    color:white;
+    font-family: "Consolas", "Menlo", "Courier", monospace;
 
 
-
-
+}
 

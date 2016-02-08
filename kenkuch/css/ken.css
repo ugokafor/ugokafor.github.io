@@ -1,35 +1,35 @@
 /*large screens*/
 .btn.btn-default.dropdown-toggle{
-        margin-top:6px;
-        background-color:#222222;
-        color:white;
-    }
+    margin-top:6px;
+    background-color:#222222;
+    color:white;
+}
 
 
 
 
-    .about{
-        margin-left:30px;
-        margin-right:30px;
-        background-color:rgba(0,0,0,1) ;
-       color:#f5f5f5;
-    }
-    .about li{
-        margin-left:30px;
+.about{
+  width:60%;
+    margin: auto;
+    background-color:rgba(0,0,0,0.7) ;
+    color:#f5f5f5;
+}
+.about li{
+    margin-left:30px;
 
-    }
-
-
+}
 
 
-    /*carousel*/
 
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        height:500px;
-        width:100%;
-        margin: auto;
-    }
+
+/*carousel*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height:500px;
+    width:100%;
+    margin: auto;
+}
 
 /*end of carousel*/
 section .img-responsive{
@@ -51,10 +51,11 @@ header{
     margin-top:0px;
     background-color:rgba(255,255,255,0.5);
     width: 100%;
-font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color:darkblue;
 
 }
+
 
 nav{
     background-color:grey;
@@ -69,6 +70,9 @@ footer {
     height:400px;
     width: 100%;
 }
+footer ul li{
+    list-style: none;
+}
 
 section{
     float:left;
@@ -77,9 +81,12 @@ section{
     color:#ffffff;
 
 }
-
+.faded{
+    width:40%;
+    float:left;
+}
 nav a{
-color: #000000;
+    color: #000000;
 }
 
 
@@ -89,4 +96,36 @@ color: #000000;
 }
 .desc{
     text-align: center;
+
 }
+.desc a{
+    color:white;
+    font-family: "Consolas", "Menlo", "Courier", monospace;
+
+
+}
+
+
+
+/*contact page*/
+.center {
+    margin:auto;
+    width: 60%;
+    padding: 10px;
+}
+.form{
+    margin-bottom: 20px;
+}
+/*end of contact form*/
+
+
+
+
+
+
+
+
+
+
+
+
