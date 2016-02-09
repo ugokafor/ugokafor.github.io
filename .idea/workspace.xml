@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc8d6618-1607-4e01-b8af-50ea507ae38a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/about_us.html" afterPath="$PROJECT_DIR$/kenkuch/about_us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/cctv_cameras.html" afterPath="$PROJECT_DIR$/kenkuch/cctv_cameras.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/contact.html" afterPath="$PROJECT_DIR$/kenkuch/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/fire_alarm.html" afterPath="$PROJECT_DIR$/kenkuch/fire_alarm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/index.html" afterPath="$PROJECT_DIR$/kenkuch/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/inverter.html" afterPath="$PROJECT_DIR$/kenkuch/inverter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/css/ken.css" afterPath="$PROJECT_DIR$/kenkuch/css/ken.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/css/mobile.css" afterPath="$PROJECT_DIR$/kenkuch/css/mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kenkuch/solar_systems.html" afterPath="$PROJECT_DIR$/kenkuch/solar_systems.html" />
     </list>
     <ignored path="ugokafor.github.io.iws" />
@@ -33,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.076923" vertical-offset="3059" max-vertical-offset="3689">
-              <caret line="258" column="13" selection-start-line="209" selection-start-column="3" selection-end-line="258" selection-end-column="13" />
+            <state vertical-scroll-proportion="-4.6153846" vertical-offset="1087" max-vertical-offset="4726">
+              <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="73" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,17 +51,26 @@
                 <element signature="n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solar_systems.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ken.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kenkuch/css/ken.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="2686">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solar_systems.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kenkuch/solar_systems.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.730769" vertical-offset="832" max-vertical-offset="2516">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.71926606" vertical-offset="832" max-vertical-offset="2533">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -67,8 +81,8 @@
       <file leaf-file-name="inverter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/inverter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.884615" vertical-offset="802" max-vertical-offset="2550">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state vertical-scroll-proportion="-9.692307" vertical-offset="802" max-vertical-offset="2567">
+              <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -76,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fire_alarm.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fire_alarm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/fire_alarm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8172043" vertical-offset="785" max-vertical-offset="2533">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state vertical-scroll-proportion="-10.346154" vertical-offset="785" max-vertical-offset="2550">
+              <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -91,8 +105,8 @@
       <file leaf-file-name="cctv_cameras.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/cctv_cameras.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.615385" vertical-offset="887" max-vertical-offset="2533">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state vertical-scroll-proportion="-6.423077" vertical-offset="887" max-vertical-offset="2550">
+              <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -100,21 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ken.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kenkuch/css/ken.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1592" max-vertical-offset="2329">
-              <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.692308" vertical-offset="2158" max-vertical-offset="2822">
-              <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+            <state vertical-scroll-proportion="-15.076923" vertical-offset="679" max-vertical-offset="2839">
+              <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -125,8 +129,8 @@
       <file leaf-file-name="about_us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.153847" vertical-offset="1550" max-vertical-offset="2227">
-              <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="561" max-vertical-offset="2244">
+              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -137,8 +141,8 @@
       <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kenkuch/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2108">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,15 +162,15 @@
         <option value="$PROJECT_DIR$/kenkuch/carosuel.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/kenkuch/center.html" />
-        <option value="$PROJECT_DIR$/kenkuch/css/ken.css" />
-        <option value="$PROJECT_DIR$/kenkuch/css/mobile.css" />
         <option value="$PROJECT_DIR$/kenkuch/index.html" />
+        <option value="$PROJECT_DIR$/kenkuch/css/mobile.css" />
+        <option value="$PROJECT_DIR$/kenkuch/css/ken.css" />
         <option value="$PROJECT_DIR$/kenkuch/about_us.html" />
-        <option value="$PROJECT_DIR$/kenkuch/contact.html" />
-        <option value="$PROJECT_DIR$/kenkuch/solar_systems.html" />
         <option value="$PROJECT_DIR$/kenkuch/cctv_cameras.html" />
-        <option value="$PROJECT_DIR$/kenkuch/inverter.html" />
+        <option value="$PROJECT_DIR$/kenkuch/contact.html" />
         <option value="$PROJECT_DIR$/kenkuch/fire_alarm.html" />
+        <option value="$PROJECT_DIR$/kenkuch/inverter.html" />
+        <option value="$PROJECT_DIR$/kenkuch/solar_systems.html" />
       </list>
     </option>
   </component>
@@ -389,7 +393,6 @@
             <element signature="n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -429,44 +432,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kenkuch/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2108">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kenkuch/css/ken.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1592" max-vertical-offset="2329">
-          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="2686">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kenkuch/about_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.153847" vertical-offset="1550" max-vertical-offset="2227">
-          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kenkuch/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.692308" vertical-offset="2158" max-vertical-offset="2822">
-          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kenkuch/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.076923" vertical-offset="3059" max-vertical-offset="3689">
-          <caret line="258" column="13" selection-start-line="209" selection-start-column="3" selection-end-line="258" selection-end-column="13" />
+        <state vertical-scroll-proportion="-4.6153846" vertical-offset="1087" max-vertical-offset="4726">
+          <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="73" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -478,25 +461,44 @@
             <element signature="n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kenkuch/solar_systems.html">
+    <entry file="file://$PROJECT_DIR$/kenkuch/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.730769" vertical-offset="832" max-vertical-offset="2516">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="561" max-vertical-offset="2244">
+          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kenkuch/cctv_cameras.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.615385" vertical-offset="887" max-vertical-offset="2533">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state vertical-scroll-proportion="-6.423077" vertical-offset="887" max-vertical-offset="2550">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kenkuch/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.076923" vertical-offset="679" max-vertical-offset="2839">
+          <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kenkuch/fire_alarm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.346154" vertical-offset="785" max-vertical-offset="2550">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -505,18 +507,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kenkuch/inverter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.884615" vertical-offset="802" max-vertical-offset="2550">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state vertical-scroll-proportion="-9.692307" vertical-offset="802" max-vertical-offset="2567">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kenkuch/fire_alarm.html">
+    <entry file="file://$PROJECT_DIR$/kenkuch/solar_systems.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8172043" vertical-offset="785" max-vertical-offset="2533">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.71926606" vertical-offset="832" max-vertical-offset="2533">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

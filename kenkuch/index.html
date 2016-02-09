@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"/>
     <link href="css/mobile.css" rel="stylesheet" media="(max-width:480px)">
     <!--<link rel='stylesheet' media='(max-width:480px)' href='css/mobile.css' />-->
-    <link rel='stylesheet' media='screen and (min-width:481px) and (max-width:1900px)' href='css/ken.css' />
+    <link rel='stylesheet' media='screen and (min-width:481px) and (max-width:2000px)' href='css/ken.css' />
     <script src="js/jquery.min.js"></script>
     <script src="css/bootstrap/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width">
@@ -33,6 +33,18 @@
 <!--end of favicons-->
 
 
+    <noscript>
+        <style>
+            .carousel.slide{
+                display:none;
+            }
+            .services{
+                display:none;
+            }
+        </style>
+    </noscript>
+
+
 </head>
 <body>
 <div class="container-fluid">
@@ -40,7 +52,7 @@
 
         <div class="row">
             <div class="col-sm-1">
-                <img src="images/nat geo wild logo.jpg" alt="" class="img-responsive"/>
+                <img src="images/nat geo wild logo.jpg" alt="Kenkuch" class="img-responsive"/>
             </div>
             <div class="col-sm-11">
                 <div class="name"><h1>Kenkuch</h1>
@@ -51,13 +63,15 @@
 
 
     <nav class="navbar navbar-inverse">
+
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
 
 
-            <li >    <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Services
-                    <span class="caret"></span></button>
+            <li  >    <div class="dropdown">
+                 <button class="btn btn-default dropdown-toggle" type="button" id="menu1"
+                         data-toggle="dropdown"><a href="solar_systems.html" class="white">Services</a>
+                     <span class="caret"></span></button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="solar_systems.html">Solar Systems</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="cctv_cameras.html">CCTV Cameras</a></li>
@@ -70,10 +84,8 @@
             <li><a href="about_us.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
+
     </nav>
-
-
-
 
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

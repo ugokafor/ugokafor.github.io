@@ -1,4 +1,20 @@
-/*large screens*/
+
+
+/*large screens 481px to 2000px*/
+
+/*housekeeping*/
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+/*end of house keeping*/
+
+
 .btn.btn-default.dropdown-toggle{
     margin-top:6px;
     background-color:#222222;
@@ -63,15 +79,22 @@ nav{
 .name{
     text-align: center;
 }
+.white{
+    color:white;
+}
+
 
 footer {
     clear: both;
-    background-color: rgba(0, 12, 11, 0.5);
+    background-color: rgba(0, 12, 11, 0.8);
     height:400px;
     width: 100%;
 }
 footer ul li{
     list-style: none;
+}
+footer h3{
+  color:white;
 }
 
 section{
@@ -117,8 +140,6 @@ nav a{
     margin-bottom: 20px;
 }
 /*end of contact form*/
-
-
 
 
 
