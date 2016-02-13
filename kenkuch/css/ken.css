@@ -46,7 +46,12 @@ header,section,footer,aside,nav,article,hgroup{
     width:100%;
     margin: auto;
 }
+section{
+    width:100%;
+    background-color:rgba(02, 12, 131,0.2);
+    color:#ffffff;
 
+}
 /*end of carousel*/
 section .img-responsive{
     width:300px;
@@ -97,13 +102,7 @@ footer h3{
   color:white;
 }
 
-section{
-    float:left;
-    width:60%;
-    background-color:rgba(02, 12, 131,0.2);
-    color:#ffffff;
 
-}
 .faded{
     width:40%;
     float:left;

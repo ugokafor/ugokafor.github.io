@@ -65,31 +65,47 @@
 
 </div>
     </header>
-
-
     <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-
-
-            <li  >    <div class="dropdown">
-                 <button class="btn btn-default dropdown-toggle" type="button" id="menu1"
-                         data-toggle="dropdown"><a href="solar_systems.html" class="white">Services</a>
-                     <span class="caret"></span></button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="solar_systems.html">Solar Systems</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="cctv_cameras.html">CCTV Cameras</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="inverter.html">Inverters</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="fire_alarm.html">Fire Alarm</a></li>
-                </ul>
+                <a class="navbar-brand" href="#">Kenkuch</a>
             </div>
-            </li>
-            
-            <li><a href="about_us.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">services<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="solar_systems.html">Solar Systems</a></li>
+                            <li><a href="cctv_cameras.html">cctv</a></li>
+                            <li><a href="inverter.html">Inverter</a></li>
+                            <li><a href="fire_alarm.html">Fire Alarms</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text"  class="form-control" placeholder="Demo, not working yet">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search <span class="glyphicon glyphicon-search"></span></button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
     </nav>
 
 
@@ -156,56 +172,115 @@
     <section>
         <h2>Our Services</h2>
         <div class="row">
-
-
-            <div class="col-sm-3">
-                <a href="cctv_cameras.html" class="white"><img src="images/solar-snap-shot-camera_1.jpg" alt=""
-                                                 class="img-rounded" style="width:80%; height:200px"/> </a>
-
-                    <div class="desc"> <a href="cctv_cameras.html">CCTV CAMERA</a></div>
-
-
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/solar-snap-shot-camera_1.jpg" alt="cctv camera" style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>CCtv cameras</h3>
+                        <p>Our cctv cameras are powered by solar energy</p>
+                        <p><a href="cctv_cameras.html" class="btn btn-primary" role="button">CCTV Camera
+                            <span class="glyphicon glyphicon-menu-right"></span></a></p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-sm-3">
-                <a href="inverter.html" class="white">
-                <img src="images/IMG-20151106-WA0020.jpg" alt=""   class="img-rounded" style="width:80%; height:200px"  />
-                </a>
-
-                    <div class="desc"><a href="inverter.html">INVERTER  </a></div>
-
-
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/IMG-20151106-WA0022.jpg" alt="..." style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>Inverters</h3>
+                        <p>Inverters kick off immediately on blackout</p>
+                        <p><a href="inverter.html" class="btn btn-primary" role="button">Inverters
+                            <span class="glyphicon glyphicon-menu-right"></span></a></p>
+                    </div>
+                </div>
             </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/background.jpg" alt="..." style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>Solar Panel</h3>
+                        <p>Our Solar panels store up a lot of energy</p>
+                        <p><a href="solar_systems.html" class="btn btn-primary" role="button">Solar Panel
+                            <span class="glyphicon glyphicon-menu-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/fire alarm.jpg" alt="..." style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>Fire Alarms</h3>
+                        <p>Fire Alarms to warn of fire outbreak in order to save lives</p>
+                        <p><a href="fire_alarm.html" class="btn btn-primary" role="button">Fire Alarms
+                        <span class="glyphicon glyphicon-menu-right"></span>
 
-            <div class="col-sm-3">
-                <a href="solar_systems.html" class="white">
-                    <img src="images/background.jpg" alt=""    class="img-rounded" style="width:80%;
-            height:200px" />
-                </a>
-
-
-                    <div class="desc"><a href="solar_systems.html">SOLAR SYSTEMS</a></div>
-
-</div>
-
-
-            <div class="col-sm-3">
-                <a href="fire_alarm.html">
-                    <img src="images/fire alarm.jpg" alt=""    class="img-rounded" style="width:80%;
-            height:200px" />
-                </a>
-
-                    <div class="desc"><a href="fire_alarm.html">Fire Alarms  </a></div>
+                        </a></p>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
 
 
 
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/bread_board.jpg" alt="cctv camera" style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>ELECTRONICS COMPONENTS AND IC'S</h3>
+                        <p>For students IT training</p>
+                        <p><a href="cctv_cameras.html" class="btn btn-primary" role="button">Electronic components
+                            <span class="glyphicon glyphicon-menu-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/inverter1.jpg" alt="..." style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>Inverters</h3>
+                        <p>Inverters kick off immediately on blackout</p>
+                        <p><a href="inverter.html" class="btn btn-primary" role="button">Inverters
+                            <span class="glyphicon glyphicon-menu-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/car battery.jpg" alt="..." style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>Batteries</h3>
+                        <p>Long lasting Batteries</p>
+                        <p><a href="solar_systems.html" class="btn btn-primary" role="button">Batteries
+                            <span class="glyphicon glyphicon-menu-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/electrical panels.jpg" alt="..." style="width:80%; height:200px">
+                    <div class="caption">
+                        <h3>Electical Panels</h3>
+                        <p>Industrial Electrical Panels</p>
+                        <p><a href="fire_alarm.html" class="btn btn-primary" role="button">Electric panels
+                            <span class="glyphicon glyphicon-menu-right"></span>
+
+                        </a></p>
+                    </div>
+                </div>
             </div>
 
 
-
+        </div>
 
 
 
@@ -215,11 +290,11 @@
 
 
 
-    <aside class="faded">
+    <!--<aside class="faded">-->
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.657732156381!2d7.013783431511263!3d5.468785577406327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xe1c3c8bde161e04e!2s40%2F40+Nite+Club+-+Bar+-+Lounge!5e0!3m2!1sen!2sng!4v1454965545872" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.657732156381!2d7.013783431511263!3d5.468785577406327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xe1c3c8bde161e04e!2s40%2F40+Nite+Club+-+Bar+-+Lounge!5e0!3m2!1sen!2sng!4v1454965545872" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 
-    </aside>
+    <!--</aside>-->
 
 
 
